@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.table-container {
+    overflow-x: auto;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn.apply-now {
+    background-color: transparent;
+    color: orange;
+}
+
+.btn.download-brochure {
+    background-color: transparent;
+    color: rgb(4, 245, 113);
+    font-weight: 700;
+}
+
+.btn.add-to-compare {
+    color: black;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffcc; /* light yellow */
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.light-blue {
+    color: #add8e6; /* light blue color */
+    font-weight: normal;
+}
+.dropbtn{
+    color: orange;
+    background-color: transparent;
+    border: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
